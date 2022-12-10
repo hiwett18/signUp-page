@@ -7,10 +7,6 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import './App2.css'
 
-// 3 components
-// -navbar - 3 links
-// -sidebar - 2 links 
-// -layout > inside layout - render something of your choice. example: youtube component, hello world, image
 
 function Navbar(){
   return(
@@ -97,9 +93,6 @@ function SignUp(props){
         <FormLabel>New Password</FormLabel>
         <Input type="password" name="password" />
       </FormControl>
-        {/* <input onChange={(e)=> setUsername(e.target.value)} type="text" name="username" />
-        <input onChange={(e)=> setPassword(e.target.value)} type="password" name="password" />
-        <input type="submit" value="Login" /> */}
         <Button colorScheme='blue' width="20%" marginBottom={5}>Register</Button>
       </form>
    </div>
